@@ -3,11 +3,7 @@
   "builds": [
     {
       "src": "api_server_vercel.py",
-      "use": "@vercel/python",
-      "config": {
-        "runtime": "python3.12",
-        "requirements": "requirements-vercel.txt"
-      }
+      "use": "@vercel/python"
     }
   ],
   "routes": [
@@ -17,3 +13,4 @@
     }
   ]
 }
+
